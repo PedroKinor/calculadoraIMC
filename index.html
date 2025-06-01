@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <script src="scripts/calculadora.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="cabecao">
+        <h1 class="white">CALCULADORA IMC - MÓDULO 5</h1>
+    </header>
+<nav>                                               </nav>
+    <main>
+        <section>
+            <article>
+                <h2>O que é IMC ?</h2>
+                <p>IMC significa Índice de Massa Corporal. É uma medida usada para avaliar se uma pessoa está com o peso
+                    adequado em relação à sua altura.</p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2>Calcule o seu IMC</h2>
+
+                <p>Adicione o seu peso:</p>
+                <label for="peso">Peso(KG): </label>
+                <input type="number" id="peso">
+            </article>
+
+
+            <p>Adicione a sua altura:</p>
+            <label for="altura">Altura(MT): </label>
+            <input type="number" id="altura">
+
+            <p id="resultado"></p>
+            <button onclick="calcularIMC()">Calcular</button>
+        </section>
+    </main>
+</body>
+
+</html>
